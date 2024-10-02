@@ -84,3 +84,15 @@ img {
 h1 {
   color: white;
 }
+.about {
+  display: flex;           
+  justify-content: center;   
+  align-items: center;       
+  gap: 20px;                 
+  flex-wrap: wrap;           
+}
+
+.about-image img {
+  width: 200px;             
+  height: auto;              
+}
