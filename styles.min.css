@@ -97,3 +97,45 @@ h1 {
   width: 200px;             
   height: auto;              
 }
+
+#contact-form {
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;      
+  
+  width: 400px;  
+  height: 400px; 
+  margin: 0 auto; 
+  
+  background-color: rgb(245, 245, 245); 
+  border: 2px solid rgb(106, 16, 94); 
+  border-radius: 10px; 
+  padding: 20px;       
+}
+
+body {
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+  height: 100vh;            
+  margin: 0;
+  background-color: rgb(220, 185, 252); 
+}
+
+#contact-form input, #contact-form textarea {
+  width: 90%;  
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact-form input[type="submit"] {
+  width: 50%; 
+  cursor: pointer;
+  background-color: rgb(106, 16, 94); 
+  color: white;
+  border: none;
+  padding: 10px;
+}
