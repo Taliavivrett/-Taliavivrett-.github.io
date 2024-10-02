@@ -63,7 +63,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgb(209, 136, 223);
   color: white;
   position: absolute;
   bottom: 0;
