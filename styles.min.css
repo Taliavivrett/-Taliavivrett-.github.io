@@ -98,15 +98,15 @@ h1 {
   height: auto;              
 }
 .resume-page {
-  background-color: white; /* Clean white background for resume */
+  background-color: white;
   padding: 20px;
   max-width: 900px;
-  margin: 0 auto; /* Center the resume content */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for depth */
+  margin: 0 auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .resume-page .section {
-  margin-bottom: 30px; /* Add space between sections */
+  margin-bottom: 30px; 
 }
 
 .resume-page .section-title h2 {
