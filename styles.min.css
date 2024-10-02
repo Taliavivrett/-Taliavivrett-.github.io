@@ -97,3 +97,47 @@ h1 {
   width: 200px;             
   height: auto;              
 }
+.resume-page {
+  background-color: white; /* Clean white background for resume */
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto; /* Center the resume content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for depth */
+}
+
+.resume-page .section {
+  margin-bottom: 30px; /* Add space between sections */
+}
+
+.resume-page .section-title h2 {
+  border-bottom: 2px solid #6A105E;
+  padding-bottom: 5px;
+  color: #6A105E;
+  font-size: 24px;
+}
+
+.resume-page .entry-title {
+  color: #6A105E;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.resume-page .entry-info {
+  font-size: 16px;
+  color: #555;
+}
+
+.resume-page ul {
+  padding-left: 20px;
+}
+
+.resume-page ul.skill-list,
+.resume-page ul.course-list {
+  list-style: disc;
+  margin-top: 10px;
+}
+
+.resume-page ul li {
+  font-size: 16px;
+  color: #333;
+}
